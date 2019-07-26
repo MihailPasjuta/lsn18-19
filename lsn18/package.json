@@ -1,0 +1,24 @@
+{
+  "name": "lsn7",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && parcel build ./index.html --public-url /js_sandbox",
+    "deploy": "gh-pages -d dist",
+    "start": "parcel ./index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "combine-reducers": "^1.0.0",
+    "email-validator": "^2.0.4",
+    "parcel": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4"
+  }
+}
